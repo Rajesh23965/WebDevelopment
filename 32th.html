@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .card{
+        padding: 23px 12px;
+        margin: 4px;
+        /* border: 2px solid black; */
+        background-color: rgb(42, 165, 149);
+        /* box-shadow: -12px -13px green;
+        box-shadow: 12px 13px green;
+        box-shadow: 12px 13px 10px green;
+        box-shadow: -12px -13px 10px rgb(32, 0, 128);
+        box-shadow: -12px -13px 10px 22px rgb(128, 0, 17);
+        box-shadow: -12px -13px 10px 31px rgb(1, 2, 0.5,0.5); */
+        box-shadow: inset 2px 5px green;
+        box-shadow: 6px 8px green, 13px 14px red;
+    }
+    .card h2{
+        text-shadow:3px 4px 2px wheat;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is about kathmandu</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, voluptates
+                 exercitationem dolores, veniam maiores ab, voluptatum quos dignissimos consequuntur 
+                 laboriosam unde doloremque mollitia veritatis pariatur iure? Adipisci dolor modi 
+                 assumenda saepe nobis?</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is about bardibas</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, voluptates
+                exercitationem dolores, veniam maiores ab, voluptatum quos dignissimos consequuntur 
+                laboriosam unde doloremque mollitia veritatis pariatur iure? Adipisci dolor modi 
+                assumenda saepe nobis?</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>This is about janakpur</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, voluptates
+                exercitationem dolores, veniam maiores ab, voluptatum quos dignissimos consequuntur 
+                laboriosam unde doloremque mollitia veritatis pariatur iure? Adipisci dolor modi 
+                assumenda saepe nobis?</p>
+        </div>
+    </div>
+</body>
+</html>
